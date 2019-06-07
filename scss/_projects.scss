@@ -1,0 +1,46 @@
+.projects-section {
+  padding: 10rem 0;
+  .featured-text {
+    padding: 2rem;
+    @media (min-width: 992px) {
+      padding: 0 0 0 2rem;
+      border-left: 0.5rem solid $primary;
+    }
+  }
+  .project-text {
+
+    padding: 3rem;
+    font-size: 90%;
+    @media (min-width: 992px) {
+      padding: 5rem;
+      hr {
+        border-color: $primary;
+        border-width: .25rem;
+        width: 30%;
+      }
+    }
+    h4 {
+      color: white;
+      background: -webkit-linear-gradient(fade-out(white, 0.1), fade-out(white, 0.5));
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
+  }
+}
+
+.container {
+  .portfolioHeader {
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 0;
+    font-family: 'Varela Round';
+    font-size: 2.9rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(fade-out(black, 0.1), fade-out(black, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+
+

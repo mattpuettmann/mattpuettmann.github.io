@@ -1,0 +1,31 @@
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+  p {
+    margin-bottom: 5rem;
+  }
+}
+
+.subheading {
+  color: white;
+  background: -webkit-linear-gradient(fade-out(white, 0.1), fade-out(white, 1));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.proficiencies {
+  color: white;
+}
+
+.whoAmI {  
+  color: white;
+  background: -webkit-linear-gradient(fade-out(white, 0.1), fade-out(white, 0.25));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding-bottom: 15px;
+}
+
+.fas {
+  color: #919191;
+  padding-bottom: 25px;
+}
